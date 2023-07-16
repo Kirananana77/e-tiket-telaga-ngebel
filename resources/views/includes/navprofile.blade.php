@@ -6,7 +6,7 @@
             <li>
                 <a href="#" class="active">
                     <i class='bx bx-user'></i>
-                    My Profile
+                    Akun Saya
                 </a>
             </li>
             <li>
@@ -18,13 +18,13 @@
             <li>
                 <a href="{{ url('riwayat') }}">
                     <i class='bx bxs-file-doc'></i>
-                    My Riwayat Pemesanan
+                    Riwayat Pemesanan
                 </a>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-lock-alt' ></i>
-                    Change Password
+                    Ubah Password
                 </a>
             </li>
           

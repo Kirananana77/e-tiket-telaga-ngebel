@@ -81,7 +81,7 @@ Daftar
                                 <!-- /row -->
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn_1 full-width">Register</button>
+                                <button type="submit" class="btn_1 full-width">Registrasi</button>
                             </div>
                         </form>
                     </div>

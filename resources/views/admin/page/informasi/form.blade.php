@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-body">
 
-            <h4 class="header-title">Wisata Form Penginputan Pengumuman</h4>
+            <h4 class="header-title">Form Penginputan Data</h4>
             <p class="sub-header">Masukan Data Tiket Secara Benar</p>
 
             <form class="needs-validation" novalidate>
@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="validationCustom01" class="form-label">hari_buka</label>
+                    <label for="validationCustom01" class="form-label">buka dari</label>
                     <input type="text" class="form-control" id="validationCustom01" placeholder="First name" name="hari_buka" value="{{ $informasi->hari_buka ?? '' }}" required />
                     <div class="valid-feedback">
                         Looks good!
@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="validationCustom01" class="form-label">hari_tutup</label>
+                    <label for="validationCustom01" class="form-label">sampai</label>
                     <input type="text" class="form-control" id="validationCustom01" placeholder="First name" name="hari_tutup" value="{{ $informasi->hari_tutup ?? '' }}" required />
                     <div class="valid-feedback">
                         Looks good!

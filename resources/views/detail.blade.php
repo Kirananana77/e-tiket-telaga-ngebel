@@ -46,14 +46,14 @@ Detail
                                     <img src="{{ asset($detail->gambar) }}" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-md-8">
-                                    <h4>Single Room</h4>
-                                    <p>Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
+                                    <!--h4>Bundling</h4>
+                                    <p>Dengan Membeli Tiket Bundling anda akan lebih diuntungkan karena mendapatkan harga tiket yang lebih murah dari pada harga Normal.</p-->
                                     <ul class="hotel_facilities">
-                                        <li><img src="img/hotel_facilites_icon_2.svg" alt="">Single Bed</li>
-                                        <li><img src="img/hotel_facilites_icon_4.svg" alt="">Free Wifi</li>
-                                        <li><img src="img/hotel_facilites_icon_5.svg" alt="">Shower</li>
-                                        <li><img src="img/hotel_facilites_icon_7.svg" alt="">Air Condition</li>
-                                        <li><img src="img/hotel_facilites_icon_8.svg" alt="">Hairdryer</li>
+                                        <li><img src="img/hotel_facilites_icon_2.svg" alt="">Hotel</li>
+                                        <li><img src="img/hotel_facilites_icon_4.svg" alt="">Restoran</li>
+                                        <li><img src="img/hotel_facilites_icon_5.svg" alt="">Kapal</li>
+                                        <li><img src="img/hotel_facilites_icon_7.svg" alt="">Kuda</li>
+                                        <li><img src="img/hotel_facilites_icon_8.svg" alt="">Pertunjukan Air Mancur</li>
                                     </ul>
                                 </div>
                             </div>

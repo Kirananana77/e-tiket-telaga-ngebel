@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <a data-toggle="collapse" data-target="#collapse_ft_1" aria-expanded="false" aria-controls="collapse_ft_1" class="collapse_bt_mobile">
-                    <h3>Quick Links</h3>
+                    <h3>Link</h3>
                     <div class="circle-plus closed">
                         <div class="horizontal"></div>
                         <div class="vertical"></div>
@@ -11,15 +11,15 @@
                 </a>
                 <div class="collapse show" id="collapse_ft_1">
                     <ul class="links">
-                        <li><a href="{{ url('about') }}">About us</a></li>
-                        <li><a href="{{ url('/profile') }}">My account</a></li>
-                        <li><a href="{{ url('daftar') }}">Create account</a></li>
+                        <li><a href="{{ url('about') }}">Tentang Kami</a></li>
+                        <li><a href="{{ url('/profile') }}">Akun Saya</a></li>
+                        <li><a href="{{ url('daftar') }}">Buat Akun</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <a data-toggle="collapse" data-target="#collapse_ft_2" aria-expanded="false" aria-controls="collapse_ft_2" class="collapse_bt_mobile">
-                    <h3>Categories</h3>
+                    <h3>Kategori</h3>
                     <div class="circle-plus closed">
                         <div class="horizontal"></div>
                         <div class="vertical"></div>
@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <a data-toggle="collapse" data-target="#collapse_ft_3" aria-expanded="false" aria-controls="collapse_ft_3" class="collapse_bt_mobile">
-                    <h3>Contacts</h3>
+                    <h3>Kontak</h3>
                     <div class="circle-plus closed">
                         <div class="horizontal"></div>
                         <div class="vertical"></div>
@@ -52,7 +52,7 @@
                 <div class="collapse show" id="collapse_ft_4">
                
                     <div class="follow_us">
-                        <h5>Follow Us</h5>
+                        <h5>Ikuti Kami</h5>
                         <ul>
                             <li><a href="#0"><i class="ti-facebook"></i></a></li>
                             <li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
@@ -70,8 +70,6 @@
             
             <div class="col-lg-12">
                 <ul id="additional_links">
-                    <li><a href="#0">Terms and conditions</a></li>
-                    <li><a href="#0">Privacy</a></li>
                     <li><span>© 2023 kirana dewi</span></li>
                 </ul>
             </div>

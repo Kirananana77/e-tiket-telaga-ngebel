@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-body">
 
-            <h4 class="header-title">Wisata Form Penginputan Pengumuman</h4>
+            <h4 class="header-title">Form Penginputan Data</h4>
             <p class="sub-header">Masukan Data Tiket Secara Benar</p>
 
             <form class="needs-validation" novalidate>

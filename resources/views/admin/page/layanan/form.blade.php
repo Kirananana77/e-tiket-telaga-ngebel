@@ -2,12 +2,12 @@
     <div class="card">
         <div class="card-body">
 
-            <h4 class="header-title">Wisata Form Penginputan Pengumuman</h4>
+            <h4 class="header-title">Form Penginputan Data</h4>
             <p class="sub-header">Masukan Data Tiket Secara Benar</p>
 
             <form class="needs-validation" novalidate>
                 <div class="mb-3">
-                    <label for="validationCustom01" class="form-label">Judul Pengumuman</label>
+                    <label for="validationCustom01" class="form-label">Judul </label>
                     <input type="text" class="form-control" id="validationCustom01" placeholder="First name" name="nama_layanan" value="{{ $layanan->nama_layanan ?? '' }}" required />
                     <div class="valid-feedback">
                         Looks good!

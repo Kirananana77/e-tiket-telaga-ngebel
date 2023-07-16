@@ -75,7 +75,7 @@ E-TICKETING TELAGA NGEBEL
                     <div class="col-md-4">
                         <div class="box_how">
                             <i class="pe-7s-info"></i>
-                            <h3>Legend</h3>
+                            <h3>Legenda</h3>
                             <p>Telaga Ngebel dihubungkan dengan seekor ular naga bernama “Baru Klinting”</p>
                             <span></span>
                         </div>

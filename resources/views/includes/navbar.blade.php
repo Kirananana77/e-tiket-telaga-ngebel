@@ -4,7 +4,7 @@
 			<div class="col-lg-3 col-12">
 				<div id="logo">
 					<a href="{{ url('/') }}">
-						<img src="{{ asset('assets/images/logo1.png') }}" width="50" height="50" alt="" class="logo_sticky">
+						<img src="{{ asset('assets/images/logo2.png') }}" width="60" height="60" alt="" class="logo_sticky">
 					</a>
 				</div>
 			</div>
@@ -12,7 +12,7 @@
 				@guest
 				<ul id="top_menu">
 					<li><a href="{{ url('daftar') }}" class="btn_add">Buat Akun</a></li>
-					<li><a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In">Sign In</a></li>
+					<li><a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In">Masuk</a></li>
 					{{-- <li><a href="wishlist.html" class="wishlist_bt_top" title="Your wishlist">Your wishlist</a></li> --}}
 				</ul>
 				@else
@@ -43,7 +43,7 @@
 								
 							</ul>
 						</li>
-						<li><span><a href="{{ url('about') }}">About</a></span>
+						<li><span><a href="{{ url('about') }}">Tentang Kami</a></span>
 				
 						</li>
 						

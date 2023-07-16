@@ -9,7 +9,7 @@ About Us
 @section('content')
 <div class="sub_header_in sticky_header">
     <div class="container">
-        <h1>About Us</h1>
+        <h1>Tentang Kami</h1>
     </div>
     <!-- /container -->
 </div>

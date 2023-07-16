@@ -363,8 +363,8 @@ Profile
                       <div class="row justify-content-center">
                           <div class="col-xl-12 col-lg-12 col-md-12">
                               <div class="box_account">
-                                  <h3 class="new_client">Profile Saya</h3>
-                                  <small class="float-right pt-2">* Required Fields</small>
+                                  <h3 class="new_client">Profil Saya</h3>
+                                  <small class="float-right pt-2">* Wajib Diisi</small>
                                   <div class="form_container">
                                     <form class="job-post-from" method="POST" action="{{ route('profile.update') }}">
                                       @csrf
