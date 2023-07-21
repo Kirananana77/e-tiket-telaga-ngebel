@@ -33,18 +33,18 @@
                                     @csrf
                                     <div class="mb-3">
                                         <label for="emailaddress" class="form-label">Email</label>
-                                        <input class="form-control" type="text"  name="email" id="username" required="" placeholder="Enter your UserName">
+                                        <input class="form-control" type="text"  name="email" id="username" required="" placeholder="Masukkan Email Anda">
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="password" class="form-label">Password</label>
-                                        <input class="form-control" type="password" name="password" required="" id="password" placeholder="Enter your password">
+                                        <input class="form-control" type="password" name="password" required="" id="password" placeholder="Masukkan Password Anda">
                                     </div>
 
                                     <div class="mb-3">
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="checkbox-signin" checked>
-                                            <label class="form-check-label" for="checkbox-signin">Remember me</label>
+                                            <label class="form-check-label" for="checkbox-signin">Inggatkan Saya</label>
                                         </div>
                                     </div>
 
