@@ -375,7 +375,7 @@ Tiket
             <div class="col-md-8">
               <div class="sub_header_in sticky_header">
                 <div class="container">
-                  <h1>Bookings Tiket</h1>
+                  <h1>Tiket Pesanan</h1>
                 </div>
                 <!-- /container -->
               </div>
