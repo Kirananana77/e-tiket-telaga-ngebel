@@ -27,7 +27,7 @@
 <!-- Sign In Popup -->
 <div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
     <div class="small-dialog-header">
-        <h3>Masuk</h3>
+        <h3>Sign In</h3>
     </div>
     <form method="POST" action="{{ route('login') }}">
         @csrf

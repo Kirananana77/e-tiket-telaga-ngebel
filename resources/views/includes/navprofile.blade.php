@@ -2,11 +2,11 @@
     <div class="account-information">
         
 
-        <ul>
+        <ul id="menu">
             <li>
-                <a href="#" class="active">
+                <a href="{{ url('profile') }}" class="active">
                     <i class='bx bx-user'></i>
-                    Akun Saya
+                    My Profile
                 </a>
             </li>
             <li>
@@ -18,13 +18,13 @@
             <li>
                 <a href="{{ url('riwayat') }}">
                     <i class='bx bxs-file-doc'></i>
-                    Riwayat Pemesanan
+                    My Riwayat Pemesanan
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <i class='bx bx-lock-alt' ></i>
-                    Ubah Password
+                <a href="{{ url('profile/password') }}">
+                    <i class='bx bx-lock-alt'></i>
+                    Ganti Password
                 </a>
             </li>
           
