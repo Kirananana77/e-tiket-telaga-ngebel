@@ -249,7 +249,7 @@ Detail
                         </div>
 
                         <div class="form-group" id="input-dates">
-                            <input class="form-control" type="text" name="tgl_boking" placeholder="When..">
+                            <input class="form-control" type="text" name="tgl_boking" placeholder="Tanggal">
                             <i class="icon_calendar"></i>
                         </div>
 
@@ -262,9 +262,9 @@ Detail
                             <input class="form-control" type="text" name="deskripsi" placeholder="Deskripsi">
                         </div>
 
-                        <button type="submit"  class=" add_top_30 btn_1 full-width purchase">Purchase</button>
+                        <button type="submit"  class=" add_top_30 btn_1 full-width purchase">Pesan</button>
                     </form>
-                        <a href="wishlist.html" class="btn_1 full-width outline wishlist"><i class="icon_heart"></i> Add to wishlist</a>
+                        
                        
                     </div>
                     {{-- <ul class="share-buttons">

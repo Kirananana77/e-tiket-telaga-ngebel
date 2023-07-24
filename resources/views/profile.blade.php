@@ -374,17 +374,17 @@ Profile
                                               <div class="row no-gutters">
                                                   <div class="col-6 pr-1">
                                                       <div class="form-group">
-                                                          <input type="text" class="form-control" placeholder="Name*" name="name" value="{{ $detailUser->name  ?? '' }}" required >
+                                                          <input type="text" class="form-control" placeholder="Nama Depan" name="name" value="{{ $detailUser->name  ?? '' }}" required >
                                                       </div>
                                                   </div>
                                                   <div class="col-6 pl-1">
                                                       <div class="form-group">
-                                                          <input type="text" class="form-control" placeholder="Last Name*" name="last_name" value="{{ $detailUser->last_name  ?? '' }}"required>
+                                                          <input type="text" class="form-control" placeholder="Nama Belakang" name="last_name" value="{{ $detailUser->last_name  ?? '' }}"required>
                                                       </div>
                                                   </div>
                                                   <div class="col-12">
                                                       <div class="form-group">
-                                                          <input type="text" class="form-control" placeholder="Full Address*" name="address" value="{{ $detailUser->address  ?? '' }}"required>
+                                                          <input type="text" class="form-control" placeholder="Alamat Lengkap" name="address" value="{{ $detailUser->address  ?? '' }}"required>
                                                       </div>
                                                   </div>
                                               </div>
@@ -392,22 +392,22 @@ Profile
                                               <div class="row no-gutters">
                                                   <div class="col-6 pr-1">
                                                       <div class="form-group">
-                                                          <input type="text" class="form-control" placeholder="City*" name="city" value="{{ $detailUser->city  ?? '' }}" required>
+                                                          <input type="text" class="form-control" placeholder="Kota" name="city" value="{{ $detailUser->city  ?? '' }}" required>
                                                       </div>
                                                   </div>
                                                   <div class="col-6 pl-1">
                                                       <div class="form-group">
-                                                          <input type="text" class="form-control" placeholder="Postal Code*" name="zip_code" value="{{ $detailUser->zip_code  ?? '' }}" required>
+                                                          <input type="text" class="form-control" placeholder="Kode Pos" name="zip_code" value="{{ $detailUser->zip_code  ?? '' }}" required>
                                                       </div>
                                                   </div>
                                                   <div class="col-6 pl-1">
                                                       <div class="form-group">
-                                                          <input type="text" class="form-control" placeholder="Country*" name="country" value="{{ $detailUser->country  ?? '' }}" required>
+                                                          <input type="text" class="form-control" placeholder="Negara" name="country" value="{{ $detailUser->country  ?? '' }}" required>
                                                       </div>
                                                   </div>
                                                   <div class="col-6 pl-1">
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="Telephone *" name="phone" value="{{ $detailUser->phone  ?? '' }}" required>
+                                                        <input type="text" class="form-control" placeholder="No Telephone" name="phone" value="{{ $detailUser->phone  ?? '' }}" required>
                                                     </div>
                                                 </div>
                                               </div>
@@ -417,7 +417,7 @@ Profile
                                               <!-- /row -->
                                           </div>
                                           <div class="text-center">
-                                              <button type="submit" class="btn_1 full-width">Update Profile</button>
+                                              <button type="submit" class="btn_1 full-width">Simpan Perubahan</button>
                                           </div>
                                       </form>
                                   </div>

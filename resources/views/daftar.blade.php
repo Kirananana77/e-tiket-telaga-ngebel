@@ -28,27 +28,27 @@ Daftar
                         <form method="POST" action="{{ route('daftar.store') }}">
                             @csrf
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" name="password_in_2" id="password_in_2" placeholder="Password*" required>
+                                <input type="password" class="form-control" name="password_in_2" id="password_in_2" placeholder="Password" required>
                             </div>
                             <hr>
                             <div class="private box">
                                 <div class="row no-gutters">
                                     <div class="col-6 pr-1">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Name*" name="name" required>
+                                            <input type="text" class="form-control" placeholder="Nama Depan" name="name" required>
                                         </div>
                                     </div>
                                     <div class="col-6 pl-1">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Last Name*" name="last_name" required>
+                                            <input type="text" class="form-control" placeholder="Nama Belakang" name="last_name" required>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Full Address*" name="address" required>
+                                            <input type="text" class="form-control" placeholder="Alamat Lengkap" name="address" required>
                                         </div>
                                     </div>
                                 </div>
@@ -56,17 +56,17 @@ Daftar
                                 <div class="row no-gutters">
                                     <div class="col-6 pr-1">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="City*" name="city" required>
+                                            <input type="text" class="form-control" placeholder="Kota" name="city" required>
                                         </div>
                                     </div>
                                     <div class="col-6 pl-1">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Postal Code*" name="zip_code" required>
+                                            <input type="text" class="form-control" placeholder="Kode Pos" name="zip_code" required>
                                         </div>
                                     </div>
                                     <div class="col-6 pl-1">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Country*" name="country" required>
+                                            <input type="text" class="form-control" placeholder="Negara" name="country" required>
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ Daftar
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Telephone *" name="phone" required>
+                                            <input type="text" class="form-control" placeholder="No Telephone" name="phone" required>
                                         </div>
                                     </div>
                                 </div>
