@@ -6,7 +6,7 @@
         <div class="user-box text-center">
                 <div class="dropdown">
                   <img src="{{ asset('assets/images/logo1.png') }}" class="img-fluid" style="width: 50px">
-                    <a href="#" class="user-name dropdown-toggle h5 mt-2 mb-1 d-block" data-bs-toggle="dropdown"  aria-expanded="false">Admin Desa Ngarum</a>
+                    <a href="#" class="user-name dropdown-toggle h5 mt-2 mb-1 d-block" data-bs-toggle="dropdown"  aria-expanded="false">Admin Wisata Telaga Ngebel</a>
                     <div class="dropdown-menu user-pro-dropdown">
                         <!-- item-->
                         {{-- <a href="javascript:void(0);" class="dropdown-item notify-item">

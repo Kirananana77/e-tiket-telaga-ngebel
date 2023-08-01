@@ -43,7 +43,7 @@
                 <div class="collapse show" id="collapse_ft_3">
                     <ul class="contacts">
                         <li><i class="ti-headphone-alt"></i>08135800131</li>
-                        <li><i class="ti-email"></i><a href="#0">wisatangebel@gmail.com</a></li>
+                        <li><i class="ti-email"></i>wisatangebel@gmail.com1</li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     <div class="follow_us">
                         <h5>Ikuti Kami</h5>
                         <ul>
-                            <li><a href="#0"><i class="ti-facebook"></i></a></li>
+                            <li><a href="https://id-id.facebook.com/"><i class="ti-facebook"></i></a></li>
                             <li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
                             <li><a href="#0"><i class="ti-google"></i></a></li>
                             <li><a href="#0"><i class="ti-pinterest"></i></a></li>
