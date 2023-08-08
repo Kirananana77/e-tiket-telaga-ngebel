@@ -100,6 +100,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 
   header.sticky .main-menu > ul > li span > a, header.header_in .main-menu > ul > li span > a {
     color: #444;
+    font-size: 14px;
   }
   header.sticky .main-menu > ul > li span:hover > a, header.header_in .main-menu > ul > li span:hover > a {
     opacity: 1;
@@ -6035,6 +6036,7 @@ ul#cat_nav li a {
   color: #555;
   display: block;
   padding: 15px 10px;
+  font-size: 16px;
 }
 ul#cat_nav li a:after {
   font-family: "fontello";

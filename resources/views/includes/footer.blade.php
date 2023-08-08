@@ -29,6 +29,7 @@
                     <ul class="links">
                         <li><a href="{{ url('telaga-ngebel') }}">Telaga Ngebel</a></li>
                         <li><a href="{{ url('mloko-sewu') }}">Mloko Sewu</a></li>
+                        
                     </ul>
                 </div>
             </div>

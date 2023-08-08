@@ -88,7 +88,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 			padding: 0 8px 15px 8px;
 			@include fontSize(14px);
 			font-weight: 500;
-		}
+			
 		&:hover>a {
 			opacity: 0.7;
 		}
@@ -113,8 +113,11 @@ Author URI: http://themeforest.net/user/Ansonika/
 		margin: 0;
 		display: block;
 		padding: 0;
+		
 		background: #fff;
 		min-width: 200px;
+		font-size: 20x;
+		}
 		@include box-shadow (0px 6px 12px 0px rgba(0, 0, 0, 0.175));
 		transform: scale(0.4);
 		transform-origin: 10% top;

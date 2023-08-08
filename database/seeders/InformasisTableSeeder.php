@@ -40,6 +40,19 @@ class InformasisTableSeeder extends Seeder
             'updated_at' => now(),
         ]);
 
+        Informasi::create([
+            'slug' => 'informasi-3',
+            'judul' => 'Informasi 3',
+            'deskripsi' => 'Deskripsi informasi 3',
+            'jam_buka' => '10:00',
+            'jam_tutup' => '18:00',
+            'hari_buka' => 'Selasa',
+            'hari_tutup' => 'Sabtu',
+            'gambar' => 'gambar-3.jpg',
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
         // Tambahkan data seeder lainnya sesuai kebutuhan
     }
 }

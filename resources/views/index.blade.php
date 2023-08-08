@@ -72,7 +72,7 @@ E-TICKETING TELAGA NGEBEL
                             <span></span>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="box_how">
                             <i class="pe-7s-info"></i>
                             <h3>Legenda</h3>
