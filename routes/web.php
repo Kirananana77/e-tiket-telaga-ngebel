@@ -93,6 +93,8 @@ Route::get('/mloko-sewu', function () {
     return view('info2', compact('informasi'));
 })->name('info2');
 
+
+
 Route::get('/about', function () {
     return view('faqs');
 })->name('faqs');

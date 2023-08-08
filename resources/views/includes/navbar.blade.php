@@ -1,6 +1,6 @@
 <header class="header_in is_sticky menu_fixed">
 	<div class="container">
-		<div class="row">
+		<div class="right">
 			<div class="col-lg-3 col-12">
 				<div id="logo">
 					<a href="{{ url('/') }}">
@@ -8,7 +8,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-9 col-12">
+			<div class="">
 				@guest
 				<ul id="top_menu">
 					<li><a href="{{ url('daftar') }}" class="btn_add">Buat Akun</a></li>
@@ -33,13 +33,12 @@
 						<li><span><a href="{{ url('/') }}">Home</a></span>
 							
 						</li>
-						
-						
 						</li>
 						<li><span><a href="#0">Info Wisata</a></span>
 							<ul>
 								<li><a href="{{ url('telaga-ngebel') }}">TELAGA NGEBEL</a></li>
 								<li><a href="{{ url('mloko-sewu') }}">MLOKO SEWU</a></li>
+								
 								
 							</ul>
 						</li>
