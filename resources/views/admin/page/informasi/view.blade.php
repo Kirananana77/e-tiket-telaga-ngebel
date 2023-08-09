@@ -14,7 +14,7 @@
         <div class="card">
             <div class="card-body table-responsive">
                
-                
+                <a type="submit" href="{{ route('layanan.create') }}" class="btn btn-primary waves-effect waves-light">Tambah Layanan</a>
                 <br>
                 <br>
                 <table id="responsive-datatable" class="table table-bordered table-bordered dt-responsive nowrap">
@@ -86,6 +86,7 @@ type="text/javascript">
             {data: 'judul', name: 'judul', searchable: true, orderable: true}, 
             {data: 'jam_buka', name: 'jam_buka', able: true, orderable: true}, 
             {data: 'jam_tutup', name: 'jam_tutup', searchable: true, orderable: true}, 
+            
             {data: 'action', name: 'action', orderable: false, searchable: false}
         ] 
     });
