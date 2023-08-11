@@ -29,7 +29,10 @@
                         <th>Kode Unik</th>
                         <th>Status</th>
                         <th>Action</th>
+                        <th>Total</th>
+                        
                     </tr>
+                    
                     </thead>
 
 

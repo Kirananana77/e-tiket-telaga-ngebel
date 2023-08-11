@@ -40,7 +40,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
         $user = User::count();
         $orderan = Orderan::count();
         $layanan = Layanan::count();
-        return view('admin.page.index', compact('informasi','user','orderan','layanan','rekeing'));
+        $totalRego = Orderan::count('harga');
+        return view('admin.page.index', compact('informasi','user','orderan','layanan','rekeing', 'totalRego'));
     })->name('admin');
 
     Route::resource('user', UserControler::class);
@@ -52,6 +53,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], func
     Route::resource('rekening', RekeningController::class);
 
     Route::resource('informasi', InformasiController::class);
+
+    
 
 });
 
